@@ -64,3 +64,4 @@ submitbtn.place(x = 150, y = 135, width = 55)
 root.mainloop()
 </code></pre>
 submitbtn에 command = check_data는 버튼을 눌렀을 때에 대해 지정한 (위의)함수를 실행하는 부분이다.
+<br>현재진행.....
