@@ -64,4 +64,22 @@ submitbtn.place(x = 150, y = 135, width = 55)
 root.mainloop()
 </code></pre>
 submitbtn에 command = check_data는 버튼을 눌렀을 때에 대해 지정한 (위의)함수를 실행하는 부분이다.
-<br>현재진행.....
+<br>
+<img width="614" alt="image" src="https://user-images.githubusercontent.com/88926634/196827558-cdcabef2-06f2-49c8-b05a-10fcddf55638.png"><br>
+<img width="518" alt="image" src="https://user-images.githubusercontent.com/88926634/196827853-a1ba2e11-e98f-4f3b-b62b-20b6b3296c4c.png"><br>
+<img width="723" alt="image" src="https://user-images.githubusercontent.com/88926634/196827907-8170bdb0-6d97-409b-afff-a7f84b6fe4e5.png"><br>
+서버를 실행시키지 않고 클라이언트에서 로그인 후 텍스트를 보낼때<br>
+<img width="795" alt="image" src="https://user-images.githubusercontent.com/88926634/196828139-e9a7eea4-55ce-4bae-aedb-6a506f16a8e8.png"><br>
+서버를 실행 후에 클라이언트에 메세지를 보냈을때 클라이언트와 서버의 화면<br>
+<img width="752" alt="image" src="https://user-images.githubusercontent.com/88926634/196828600-8e4b82a2-7845-495d-841e-6542f86e2eef.png">
+<br>
+system off를 클릭하면 애플리케이션이 종료가 된다.
+<img width="145" alt="image" src="https://user-images.githubusercontent.com/88926634/196828930-7839fe22-da7a-466e-a732-84a2d191d611.png">
+<br>
+<img width="506" alt="image" src="https://user-images.githubusercontent.com/88926634/196829120-e44abf61-c7a3-4f1e-8275-7188774faa7b.png">
+
+
+
+
+
+
