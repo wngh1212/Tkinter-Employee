@@ -58,13 +58,13 @@ newsc.title("MAIN FORM")
 newsc.geometry("600x600")
 newsc.configure(bg='#7978FF')
 def open_ser():
-    import server 
+    import server #
     server
 def system_of():
     newsc.destroy()
 
 def open_cli():
-    import client
+    import client #임시
 server_op = Button(newsc,text="open server",command=open_ser)
 server_op.pack()
 
