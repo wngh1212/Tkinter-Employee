@@ -72,8 +72,7 @@ system off를 클릭하면 애플리케이션이 종료가 된다.
 <img width="145" alt="image" src="https://user-images.githubusercontent.com/88926634/196828930-7839fe22-da7a-466e-a732-84a2d191d611.png">
 <br>
 <img width="506" alt="image" src="https://user-images.githubusercontent.com/88926634/196829120-e44abf61-c7a3-4f1e-8275-7188774faa7b.png">
-
-
+**server와 Client의 마지막줄 주석처리는 mainloop를 쓰면창이 한꺼번에 띄어지는 문제 때문에 TopLevel로 처리하고 주석처리 하였다**
 
 
 
