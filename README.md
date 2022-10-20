@@ -16,7 +16,7 @@ root.resizable(width=False,height=False)
 </code></pre>
 가장 기본으로 띄울 창을 만들어준다.<br>
 check_data함수에 데이터 베이스를 연결하는 코드이다.<br>
-check_data함수는 ID/PASS를 확인하고 MAIN화면을 여는 함수이다.<br>
+check_data함수는 ID/PASS를 확인하고 창을 닫는 함수이다<br>
 <pre><code>def check_data():
     user = Username.get()
     passw = password.get()
@@ -29,12 +29,7 @@ check_data함수는 ID/PASS를 확인하고 MAIN화면을 여는 함수이다.<b
      if r == 1:
         messagebox.showinfo(title='welcome',message='welcome' + ' ' + Username.get()) #Username에 입력받은 값을 가져와 출력
         root.destroy()
-        #root라는 login창을 지운후 새로운 MAINFORM을 생성
-        print('succesfully login')
-        newsc = tk.Tk()
-        newsc.title("MAIN FORM")
-        newsc.geometry("1920x1080")
-        newsc.configure(bg='#7978FF')
+        #root라는 login창을 지움
     else:
         messagebox.showinfo(title='none user data',message='please check for PASS/ID')
         print('check for your pass/id please')
