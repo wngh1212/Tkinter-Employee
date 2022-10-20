@@ -58,7 +58,7 @@ newsc.title("MAIN FORM")
 newsc.geometry("600x600")
 newsc.configure(bg='#7978FF')
 def open_ser():
-    import server #interesting module error but...is not errors!!!....temporary Solution! Beacause....module is one calling!!
+    import server 
     server
 def system_of():
     newsc.destroy()
